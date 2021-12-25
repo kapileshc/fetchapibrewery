@@ -1,0 +1,77 @@
+.col-10 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.315);
+    margin: 16px;
+    text-align: center;
+    background-color: #f1f1f1ce;
+    border-radius: 8px;
+  }
+  .col-10:hover{
+      transform: scale(1.1); 
+  }
+  h3{
+      background-color: rgb(75, 38, 38);
+      margin: 10px;
+      color:white;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      padding: 10px;
+  }
+  p{
+      margin: 10px;
+      color: rgb(92, 90, 90);
+      text-align: left;
+  }
+  h5{
+      display: inline;
+  }
+  #searchfield{
+      text-align: right;
+      margin-right: 50px;
+  }
+  select{
+      width: 10%;
+  }
+  #web{
+      overflow: hidden;
+  }
+  #search{
+      width: 25%;
+      margin-left: 5px;
+  }
+  #type{
+      text-align: right;
+      color: rgba(0, 0, 0, 0.842);
+  }
+  #social{
+      text-align: center;
+  }
+  #social a{
+  color: rgba(255, 255, 255, 0.432);
+  margin-left: 10px;
+  }
+  #social a:hover{
+      color: white;
+      text-decoration: none;
+  }
+  #tech,#content {
+      color: rgba(255, 255, 255, 0.733);
+      text-align: center;
+  }
+  #tech span,#content span{
+      color: rgba(255, 255, 255, 0.473);
+  }
+  @media screen and (max-width: 520px){
+      select{
+          width: 20%;
+      }
+      #search{
+          width: 40%;
+      }
+      #searchfield{
+          text-align:center;
+          margin-right: 0%;
+      }
+      #tech,#content,#social{
+          margin-top: 10px;
+      }
+  }
